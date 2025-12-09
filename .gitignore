@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment Variables (Security)
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
