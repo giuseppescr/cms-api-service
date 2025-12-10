@@ -39,6 +39,7 @@ cms-api-service/
 │   │   └── connection.ts  # Database connection logic
 │   └── index.ts           # Server entry point and routes
 ├── .env.example           # Example environment variables
+├── database.sql           # SQL script to create tables and seed data
 ├── tsconfig.json          # TypeScript configuration
 └── package.json           # Dependencies and scripts
 ```
@@ -79,8 +80,12 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=market_db
-````
+```
 
+### Database Setup
+Import the database.sql file (located in the project root) into your MySQL database to create the necessary tables and initial data.
+
+### Run the application
 Start the server in development mode:
 
 ```bash
