@@ -7,7 +7,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Interface atualizada para Inglês
 interface Product {
     id: number;
     name: string;
